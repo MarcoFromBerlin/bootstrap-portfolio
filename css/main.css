@@ -1,0 +1,19 @@
+.home-a {
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg")
+    no-repeat center center/cover;
+}
+
+.row-cols-1 {
+  color: white;
+  text-align: justify;
+}
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 90vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
